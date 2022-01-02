@@ -15,6 +15,8 @@ export XDG_CONFIG_HOME=$HOME/.config
 
 # Customize to your needs...
 alias vi='nvim'
+alias vim='nvim'
+alias view="nvim -R"
 
 export JAVA_HOME=`/usr/libexec/java_home -v 11` #java8が使いたいとき
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
