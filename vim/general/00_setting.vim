@@ -1,1 +1,11 @@
+set shell=bin/zsh " コマンドの際にはzshを使う
+set shiftwidth=4 " Indentの幅
+set tabstop=4 " タブに変化されるサイズ
+set expandtab " タブの入力の際にスペース
+set textwidth=0 " ワードラッピングなし
+set autoindent " 自動インデント
+set hlsearch " Searchのハイライト
+set clipboard=unnamed " クリップボードへの登録
+syntax on " Syntaxをenable
 set number
+
