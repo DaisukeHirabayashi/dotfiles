@@ -1,8 +1,9 @@
 GENERAL := ${PWD}/general
 PLUGINS := ${PWD}/plugins
 
-
 ENABLED := ${HOME}/.config/nvim/enabled
+
+VIM_PLUG_REPO  := ${HOME}/.local/share/nvim/site/autoload
 
 .PHONY: init
 init:
@@ -17,3 +18,5 @@ minimal: init
 full: minimal
 	ln -sfv $(PLUGINS)/90_install.vim $(ENABLED)
 	ln -sfv $(PLUGINS)/91_plug_config.vim $(ENABLED)
+	mkdir -p $(VIM_PLUG_REPO)
+	cd $(VIM_PLUG_REPO) && curl https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim -o plug.vim
