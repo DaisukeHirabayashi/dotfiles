@@ -8,4 +8,3 @@ set hlsearch " Searchのハイライト
 set clipboard=unnamed " クリップボードへの登録
 syntax on " Syntaxをenable
 set number
-
