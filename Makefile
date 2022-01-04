@@ -1,4 +1,4 @@
 .PHONY: init
 init:
 	cd zsh && make init
-	cd vim && make init
+	cd nvim && make init
