@@ -1,4 +1,4 @@
-call plug#begin()
+call plug#begin('~/.config/nvim/plugged')
 
   Plug 'cocopon/iceberg.vim'
   Plug 'preservim/nerdtree'
