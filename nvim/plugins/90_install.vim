@@ -4,5 +4,6 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'preservim/nerdtree'
   Plug 'junegunn/fzf'
   Plug 'tpope/vim-fugitive'
+  Plug 'airblade/vim-gitgutter'
 
 call plug#end()
