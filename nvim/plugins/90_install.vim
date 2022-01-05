@@ -5,5 +5,6 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'junegunn/fzf'
   Plug 'tpope/vim-fugitive'
   Plug 'airblade/vim-gitgutter'
+  Plug 'tpope/vim-commentary'
 
 call plug#end()
