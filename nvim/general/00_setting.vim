@@ -1,4 +1,4 @@
-set shell=bin/zsh " コマンドの際にはzshを使う
+set shell=/bin/zsh " コマンドの際にはzshを使う
 set shiftwidth=2 " Indentの幅
 set tabstop=2 " タブに変化されるサイズ
 set expandtab " タブの入力の際にスペース
