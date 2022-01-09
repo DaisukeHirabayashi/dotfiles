@@ -12,3 +12,10 @@ autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
 " gitgutterのための設定
 " gitの差分をハイライトでわかりやすくする
 let g:gitgutter_highlight_lines = 1
+
+" coc.nvimのための設定
+" 定義元へのジャンプ設定等
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
