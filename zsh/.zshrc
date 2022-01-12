@@ -28,3 +28,11 @@ export USE_LOCAL_TRANSACTION=1
 alias attend='cd /Users/daisuk.a.hirabayashi/go/src/github.com/DaisukeHirabayashi/auto-attendance && go run main.go attend'
 alias leave='cd /Users/daisuk.a.hirabayashi/go/src/github.com/DaisukeHirabayashi/auto-attendance && go run main.go leave'
 alias deploy='bundle exec cap development deploy'
+
+fbr() {
+  local branches branch
+  branches=$(git branch --all | grep -v HEAD) &&
+  branch=$(echo "$branches" |
+           fzf-tmux -d $(( 2 + $(wc -l <<< "$branches") )) +m) &&
+  git checkout $(echo "$branch" | sed "s/.* //" | sed "s#remotes/[^/]*/##")
+}
