@@ -5,7 +5,7 @@ export XDG_CONFIG_HOME=$HOME/.config
 export GOPATH=$HOME/go
 
 # javaのバージョン管理
-export JAVA_HOME=`/usr/libexec/java_home -v 11
+export JAVA_HOME=`/usr/libexec/java_home -v 11`
 
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
