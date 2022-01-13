@@ -7,6 +7,7 @@ VIM_PLUG_REPO  := ${HOME}/.local/share/nvim/site/autoload
 
 .PHONY: init
 init:
+	mkdir -p ${HOME}/.config/nvim
 	ln -svf ${PWD}/init.vim ${HOME}/.config/nvim/init.vim
 
 .PHONY: minimal
