@@ -9,4 +9,6 @@ minimal: init
 	mkdir -p ${ENABLED} && \
 	ln -svf ${PWD}/00_setting.zsh ${ENABLED} && \
 	ln -svf ${PWD}/01_alias.zsh ${ENABLED} && \
+	ln -svf ${PWD}/02_plugin.zsh ${ENABLED} && \
+	ln -svf ${PWD}/03_p10k.zsh ${ENABLED} && \
 	ln -svf ${PWD}/20_fzf_basic.zsh ${ENABLED}
