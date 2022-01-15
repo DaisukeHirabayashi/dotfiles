@@ -1,38 +1,27 @@
-#
-# Executes commands at the start of an interactive session.
-#
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
-
-# Source Prezto.
-if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+### Added by Zinit's installer
+if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
+    print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
+    command mkdir -p "$HOME/.local/share/zinit" && command chmod g-rwX "$HOME/.local/share/zinit"
+    command git clone https://github.com/zdharma-continuum/zinit "$HOME/.local/share/zinit/zinit.git" && \
+        print -P "%F{33} %F{34}Installation successful.%f%b" || \
+        print -P "%F{160} The clone has failed.%f%b"
 fi
 
-# config nvim
-export XDG_CONFIG_HOME=$HOME/.config
+source "$HOME/.local/share/zinit/zinit.git/zinit.zsh"
+autoload -Uz _zinit
+(( ${+_comps} )) && _comps[zinit]=_zinit
+### End of Zinit's installer chunk
 
-# Customize to your needs...
-alias vi='nvim'
-alias vim='nvim'
-alias view="nvim -R"
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
 
-export JAVA_HOME=`/usr/libexec/java_home -v 11` #java8が使いたいとき
-export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
-export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
-export PATH=~/.local/bin:$PATH
-export GOPATH=$HOME/go
+# reading separate zsh files
+SCRIPT_DIR=$HOME/.config
 
-export USE_LOCAL_TRANSACTION=1
-alias attend='cd /Users/daisuk.a.hirabayashi/go/src/github.com/DaisukeHirabayashi/auto-attendance && go run main.go attend'
-alias leave='cd /Users/daisuk.a.hirabayashi/go/src/github.com/DaisukeHirabayashi/auto-attendance && go run main.go leave'
-alias deploy='bundle exec cap development deploy'
-
-fbr() {
-  local branches branch
-  branches=$(git branch --all | grep -v HEAD) &&
-  branch=$(echo "$branches" |
-           fzf-tmux -d $(( 2 + $(wc -l <<< "$branches") )) +m) &&
-  git checkout $(echo "$branch" | sed "s/.* //" | sed "s#remotes/[^/]*/##")
-}
+for file in $SCRIPT_DIR/zsh/enabled/*.zsh; do
+  source "$file"
+done
