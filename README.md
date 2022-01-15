@@ -1,8 +1,21 @@
 # dotfiles
-## やらかした時
+## 主に以下のファイルの管理をしています。
+- zsh
+- nvim
+- tmux
+
+## インストール方法
+まず、Homebrewのインストール
+[home brew のインストール](https://brew.sh/)
+
+その後、以下のコマンドで最低限(余分なものも入っているかもしれません)のものをインストール
 ```
-setopt EXTENDED_GLOB
-for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
-  ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
-done
+$ brew bundle
+$ make init
 ```
+その後、各レポジトリで必要に応じて`make full`などを実行して、install
+
+## その他
+consoleのフォントとして、HackGenを使っています。
+(HackGen)[https://github.com/yuru7/HackGen]
+
