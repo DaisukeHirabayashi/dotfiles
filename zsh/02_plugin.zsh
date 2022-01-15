@@ -2,6 +2,7 @@
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 # syntax-highlighting
+zinit ice wait lucid
 zinit light zdharma-continuum/fast-syntax-highlighting
 
 # autosuggestions
