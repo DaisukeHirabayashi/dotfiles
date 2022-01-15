@@ -48,3 +48,6 @@ setopt auto_cd
 
 # lsのカラーを変更
 export LSCOLORS=cxfxcxdxbxegedabagacad
+
+# ビープ音を消す
+setopt no_beep
