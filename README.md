@@ -17,5 +17,5 @@ $ make init
 
 ## その他
 consoleのフォントとして、HackGenを使っています。
-(HackGen)[https://github.com/yuru7/HackGen]
+[HackGen](https://github.com/yuru7/HackGen)
 
