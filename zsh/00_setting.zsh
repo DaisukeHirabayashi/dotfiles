@@ -46,7 +46,5 @@ zstyle ':completion:*:default' menu select=2
 # automatically change directory when dir name is typed
 setopt auto_cd
 
-# lsに色を付ける
+# lsのカラーを変更
 export LSCOLORS=cxfxcxdxbxegedabagacad
-alias ll='ls -lGF'
-alias ls='ls -GF'

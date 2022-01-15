@@ -7,3 +7,7 @@ alias view="nvim -R"
 alias attend='cd /Users/daisuk.a.hirabayashi/go/src/github.com/DaisukeHirabayashi/auto-attendance && go run main.go attend'
 alias leave='cd /Users/daisuk.a.hirabayashi/go/src/github.com/DaisukeHirabayashi/auto-attendance && go run main.go leave'
 alias deploy='bundle exec cap development deploy'
+
+# lsの色付け
+alias ll='ls -lGF'
+alias ls='ls -GF'
