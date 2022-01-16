@@ -1,3 +1,5 @@
+dofile("WindowManager.lua")
+
 local function openApp(app, path)
   local application = hs.application.find(app)
   if application ~= nil and application:isFrontmost() then
