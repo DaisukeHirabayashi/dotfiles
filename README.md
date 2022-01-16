@@ -3,6 +3,7 @@
 - zsh
 - nvim
 - tmux
+- hammerspoon
 
 ## インストール方法
 まず、Homebrewのインストール

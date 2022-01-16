@@ -11,3 +11,4 @@ brew "zsh"
 
 cask "font-hackgen"
 cask "font-hackgen-nerd"
+cask "hammerspoon"
