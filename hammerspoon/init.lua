@@ -14,3 +14,9 @@ hs.hotkey.bind({"cmd"}, "g", function()
   openApp("chrome", "/Applications/Google Chrome.app")
 end)
 
+-- [[
+--open slack
+-- ]]
+hs.hotkey.bind({"cmd"}, "l", function()
+  openApp("slack", "/Applications/Slack.app")
+end)
