@@ -10,13 +10,13 @@ end
 -- [[
 -- open google chrome
 -- ]]
-hs.hotkey.bind({"cmd"}, "g", function()
+hs.hotkey.bind({"cmd", "shift",}, "g", function()
   openApp("chrome", "/Applications/Google Chrome.app")
 end)
 
 -- [[
 --open slack
 -- ]]
-hs.hotkey.bind({"cmd"}, "l", function()
+hs.hotkey.bind({"cmd", "shift"}, "s", function()
   openApp("slack", "/Applications/Slack.app")
 end)
