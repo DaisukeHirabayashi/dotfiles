@@ -9,3 +9,6 @@ zinit light zdharma-continuum/fast-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 bindkey '^j' autosuggest-accept
 
+# git-open
+zinit ice wait lucid
+zinit light paulirish/git-open
