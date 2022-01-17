@@ -1,4 +1,5 @@
 dofile("WindowManager.lua")
+dofile("KeyCode.lua")
 
 local function openApp(app, path)
   local application = hs.application.find(app)
