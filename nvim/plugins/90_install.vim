@@ -9,5 +9,6 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
   Plug 'jiangmiao/auto-pairs'
+  Plug 'tpope/vim-endwise'
 
 call plug#end()
