@@ -14,6 +14,7 @@ init:
 minimal: init
 	mkdir -p $(ENABLED) && \
 	ln -sfv $(GENERAL)/00_setting.vim $(ENABLED)
+	ln -sfv $(GENERAL)/01_mapping.vim $(ENABLED)
 
 .PHONY: full
 full: minimal
