@@ -30,4 +30,6 @@ call plug#begin('~/.config/nvim/plugged')
   " 閉じタグ等の保管
   Plug 'tpope/vim-endwise'
 
+  Plug 'kyazdani42/nvim-web-devicons'
+  Plug 'akinsho/bufferline.nvim'
 call plug#end()

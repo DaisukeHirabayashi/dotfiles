@@ -19,3 +19,9 @@ nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
+
+" bufferlineのための設定
+set termguicolors
+lua << EOF
+require("bufferline").setup{}
+EOF
