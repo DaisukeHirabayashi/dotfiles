@@ -8,3 +8,5 @@ set hlsearch " Searchのハイライト
 set clipboard=unnamed " クリップボードへの登録
 syntax on " Syntaxをenable
 set number
+
+autocmd QuickFixCmdPost *grep* cwindow " grepをした際にファイルの一覧表示
