@@ -30,6 +30,10 @@ call plug#begin('~/.config/nvim/plugged')
   " 閉じタグ等の保管
   Plug 'tpope/vim-endwise'
 
+  " bufferの表示
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'akinsho/bufferline.nvim'
+  
+  " buffer用のplugin(さよならー)
+  Plug 'mhinz/vim-sayonara'
 call plug#end()

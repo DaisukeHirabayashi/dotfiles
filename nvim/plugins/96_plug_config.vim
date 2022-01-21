@@ -25,3 +25,6 @@ set termguicolors
 lua << EOF
 require("bufferline").setup{}
 EOF
+
+" sayonara用のキーマッピング
+nnoremap <silent> <leader>q :Sayonara<CR>
