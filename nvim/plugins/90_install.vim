@@ -33,6 +33,9 @@ call plug#begin('~/.config/nvim/plugged')
   " windowサイズ用(ctrl+E)のプラグイン
   Plug 'simeji/winresizer'
 
+  " lualineの追加
+  Plug 'nvim-lualine/lualine.nvim'
+
   " bufferの表示
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'akinsho/bufferline.nvim'
