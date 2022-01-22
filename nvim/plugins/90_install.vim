@@ -27,8 +27,11 @@ call plug#begin('~/.config/nvim/plugged')
   " 鉤括弧や""などの補完
   Plug 'jiangmiao/auto-pairs'
 
-  " 閉じタグ等の保管
+  " 閉じタグ(if-end)等の補完
   Plug 'tpope/vim-endwise'
+
+  " windowサイズ用のプラグイン
+  Plug 'simeji/winresizer'
 
   " bufferの表示
   Plug 'kyazdani42/nvim-web-devicons'
