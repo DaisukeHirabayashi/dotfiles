@@ -30,7 +30,7 @@ call plug#begin('~/.config/nvim/plugged')
   " 閉じタグ(if-end)等の補完
   Plug 'tpope/vim-endwise'
 
-  " windowサイズ用のプラグイン
+  " windowサイズ用(ctrl+E)のプラグイン
   Plug 'simeji/winresizer'
 
   " bufferの表示
