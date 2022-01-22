@@ -13,6 +13,9 @@ autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
 " gitの差分をハイライトでわかりやすくする
 let g:gitgutter_highlight_lines = 1
 
+" fzf用のキーマッピング
+nnoremap <silent> <leader>f :FZF<CR>
+
 " coc.nvimのための設定
 " 定義元へのジャンプ設定等
 nmap <silent> gd <Plug>(coc-definition)
