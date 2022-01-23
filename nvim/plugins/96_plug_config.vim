@@ -35,6 +35,7 @@ EOF
 
 " vim-fugitiveのための設定(git)
 nnoremap <silent> <leader>gs :Git<CR><C-w>T
+nnoremap <silent> <leader>gc :Git commit -v<CR>
 
 " bufferlineのための設定
 set termguicolors
