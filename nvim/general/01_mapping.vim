@@ -1,4 +1,5 @@
 let mapleader = "\<Space>"
+nnoremap <Space> <Nop>
 
 " ウィンドウ移動
 nnoremap <C-h> <C-w>h
