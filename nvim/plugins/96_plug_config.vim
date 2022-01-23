@@ -33,6 +33,9 @@ lua << EOF
   }
 EOF
 
+" vim-fugitiveのための設定(git)
+nnoremap <silent> <leader>gs :Git<CR><C-w>T
+
 " bufferlineのための設定
 set termguicolors
 lua << EOF
