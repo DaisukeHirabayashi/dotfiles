@@ -14,10 +14,12 @@ autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
 let g:gitgutter_highlight_lines = 1
 
 " fzf用のキーマッピング
-nnoremap <leader>p :FZFFileList<CR>
+nnoremap <leader>fp :FZFFileList<CR>
 command! FZFFileList call fzf#run(fzf#wrap({
             \ 'source': 'find . -type d -name .git -prune -o ! -name .DS_Store',
             \ 'down': '40%'}))
+
+nnoremap <leader>p :FZF<CR>
 
 " coc.nvimのための設定
 " 定義元へのジャンプ設定等
