@@ -26,6 +26,11 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
+" ale(静的解析ツール)のための設定
+let g:ale_fixers = {
+      \ 'ruby': ['rubocop'],
+      \ }
+
 " lualineのための設定
 lua << EOF
   local options = {

@@ -20,6 +20,8 @@ call plug#begin('~/.config/nvim/plugged')
 
   " lsp(lungadge server protocol) 
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  "rubocop用
+  Plug 'dense-analysis/ale'
 
   " goのプラグイン
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
