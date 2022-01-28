@@ -8,7 +8,7 @@ set hlsearch " Searchのハイライト
 set clipboard=unnamed " クリップボードへの登録
 syntax on " Syntaxをenable
 set number " 行数の表示
-set mouse=a " mouseの有効化
+set mouse= " mouseの有効化
 
 
 autocmd QuickFixCmdPost *grep* cwindow " grepをした際にファイルの一覧表示
