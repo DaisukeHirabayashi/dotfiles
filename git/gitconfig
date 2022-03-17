@@ -1,0 +1,13 @@
+[include]
+        path = .gitconfig.user
+[core]
+        autocrlf = input
+        editor = vim -c \"set fenc=utf-8\"
+[color]
+        ui = true
+[alias]
+        
+[http]
+        sslVerify = false
+[merge]
+        ff = false
