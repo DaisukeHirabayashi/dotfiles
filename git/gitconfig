@@ -6,7 +6,12 @@
 [color]
         ui = true
 [alias]
-        
+        ad = add . -p
+        st = status
+        co = commit
+        ps = push
+        pl = pull
+        ck = checkout
 [http]
         sslVerify = false
 [merge]
