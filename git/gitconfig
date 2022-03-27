@@ -2,7 +2,7 @@
         path = .gitconfig.user
 [core]
         autocrlf = input
-        editor = vim -c \"set fenc=utf-8\"
+        editor = nvim -c \"set fenc=utf-8\"
 [color]
         ui = true
 [alias]
