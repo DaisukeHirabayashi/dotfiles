@@ -4,6 +4,7 @@
 - nvim
 - tmux
 - hammerspoon
+- git
 
 ## インストール方法
 まず、Homebrewのインストール
