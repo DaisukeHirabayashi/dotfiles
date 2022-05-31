@@ -3,6 +3,7 @@
 [core]
         autocrlf = input
         editor = nvim -c \"set fenc=utf-8\"
+	ignorecase = false
 [color]
         ui = true
 [alias]
