@@ -1,4 +1,4 @@
-dofile("WindowManager.lua")
+dofile("CursolMovingKeyBind.lua")
 dofile("KeyCode.lua")
 
 local function openApp(app, path)
