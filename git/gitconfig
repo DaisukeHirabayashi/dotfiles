@@ -13,6 +13,7 @@
         ps = push
         pl = pull
         ck = checkout
+  unstg = restore --staged
 [http]
         sslVerify = false
 [merge]
