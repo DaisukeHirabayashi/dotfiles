@@ -1,5 +1,7 @@
-# powerlevel10k
-zinit ice depth=1; zinit light romkatv/powerlevel10k
+# starship
+zinit ice wait lucid as"program" from"gh-r" mv"starship* -> starship"
+zinit light starship/starship
+
 
 # syntax-highlighting
 zinit ice wait lucid
