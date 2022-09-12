@@ -1,5 +1,5 @@
 [character]
-success_symbol = "[>](bold green)"
+success_symbol = "[⚡](bold green)"
 
 [git_status]
 conflicted = "${count}="
@@ -14,7 +14,7 @@ renamed = "${count}»"
 deleted = "${count}✘"
 
 [directory]
-home_symbol = "${HOME}"
+home_symbol = "~/"
 truncation_length = 0
 
 # hide module versions
