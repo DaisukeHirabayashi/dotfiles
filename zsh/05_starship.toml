@@ -21,6 +21,9 @@ truncation_length = 0
 [buf]
 format = "via [$symbol]($style)"
 
+[docker_context]
+format = "via [🐋 $context](blue bold)"
+
 [cmake]
 format = "via [$symbol]($style)"
 
