@@ -18,3 +18,5 @@ SCRIPT_DIR=$HOME/.config
 for file in $SCRIPT_DIR/zsh/enabled/*.zsh; do
   source "$file"
 done
+
+eval "$($HOME/.local/share/zinit/plugins/starship---starship/starship init zsh)"
