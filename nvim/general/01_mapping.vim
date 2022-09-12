@@ -9,3 +9,6 @@ nnoremap <C-l> <C-w>l
 
 " command + s的な
 nnoremap <Leader>w :w<CR>
+
+" escキーの変更
+inoremap jk <ESC>
