@@ -33,6 +33,13 @@ colors:
     background: '#282c34'
     foreground: '#abb2bf'
 
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux a -t 0 || tmux"
+
   # Normal colors
   normal:
     # NOTE: Use '#131613' for the `black` color if you'd like to see
