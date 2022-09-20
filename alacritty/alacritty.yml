@@ -1,6 +1,4 @@
 window:
-  decolations: buttonless
-  startup_mode: SimpleFullscreen
   opacity: 0.85
   padding:
     x: 5
