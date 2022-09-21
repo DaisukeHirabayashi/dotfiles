@@ -18,8 +18,6 @@ call plug#begin('~/.config/nvim/plugged')
   " gccでコメントアウト
   Plug 'tpope/vim-commentary'
 
-  " lsp(lungadge server protocol) 
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
   "rubocop用
   Plug 'dense-analysis/ale'
 
