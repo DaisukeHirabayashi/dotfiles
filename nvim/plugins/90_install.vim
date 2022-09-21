@@ -48,5 +48,8 @@ call plug#begin('~/.config/nvim/plugged')
   " lsp(lungadge server protocol)
   Plug 'prabirshrestha/vim-lsp'
   Plug 'mattn/vim-lsp-settings'
+  " lsp(auto complete)
+  Plug 'prabirshrestha/asyncomplete.vim'
+  Plug 'prabirshrestha/asyncomplete-lsp.vim'
 
 call plug#end()
