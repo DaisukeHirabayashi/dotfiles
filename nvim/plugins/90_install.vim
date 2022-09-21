@@ -44,4 +44,9 @@ call plug#begin('~/.config/nvim/plugged')
   
   " buffer用のplugin(さよならー)
   Plug 'mhinz/vim-sayonara'
+
+  " lsp(lungadge server protocol)
+  Plug 'prabirshrestha/vim-lsp'
+  Plug 'mattn/vim-lsp-settings'
+
 call plug#end()
