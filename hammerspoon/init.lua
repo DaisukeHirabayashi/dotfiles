@@ -4,9 +4,9 @@ dofile("KeyCode.lua")
 local function openApp(app, path)
   local application = hs.application.find(app)
   if application ~= nil and application:isFrontmost() then
-      application:hide()
+    application:hide()
   else
-      hs.application.launchOrFocus(path)
+    hs.application.launchOrFocus(path)
   end
 end
 
@@ -22,4 +22,11 @@ end)
 -- ]]
 hs.hotkey.bind({"cmd", "shift"}, "s", function()
   openApp("slack", "/Applications/Slack.app")
+end)
+
+-- [[
+--open alacritty
+-- ]]
+hs.hotkey.bind({"option"}, "space", function()
+  openApp("alacritty", "/Applications/Alacritty.app")
 end)

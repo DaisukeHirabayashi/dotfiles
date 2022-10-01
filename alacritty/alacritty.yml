@@ -1,0 +1,63 @@
+window:
+  opacity: 0.85
+  padding:
+    x: 5
+    y: 5
+  
+# Font configuration
+font:
+  normal:
+    family: HackGen35 Console NF
+    style: Regular
+
+  bold:
+    family: HackGen35 Console NF
+    style: Bold
+
+  italic:
+    family: HackGen35 Console NF
+    style: Italic
+
+  bold_italic:
+    family: HackGen35 Console NF
+    style: Bold Italic
+  size:
+    11.5
+
+# Colors (One Dark)
+colors:
+  # Default colors
+  primary:
+    background: '#282c34'
+    foreground: '#abb2bf'
+
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux a -t 0 || tmux"
+
+  # Normal colors
+  normal:
+    # NOTE: Use '#131613' for the `black` color if you'd like to see
+    # black text on the background.
+    black:   '#282c34'
+    red:     '#e06c75'
+    green:   '#98c379'
+    yellow:  '#d19a66'
+    blue:    '#61afef'
+    magenta: '#c678dd'
+    cyan:    '#56b6c2'
+    white:   '#abb2bf'
+
+  # Bright colors
+  bright:
+    black:   '#5c6370'
+    red:     '#e06c75'
+    green:   '#98c379'
+    yellow:  '#d19a66'
+    blue:    '#61afef'
+    magenta: '#c678dd'
+    cyan:    '#56b6c2'
+    white:   '#ffffff'
