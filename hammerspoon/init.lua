@@ -24,9 +24,3 @@ hs.hotkey.bind({"cmd", "shift"}, "s", function()
   openApp("slack", "/Applications/Slack.app")
 end)
 
--- [[
---open alacritty
--- ]]
-hs.hotkey.bind({"option"}, "space", function()
-  openApp("alacritty", "/Applications/Alacritty.app")
-end)
