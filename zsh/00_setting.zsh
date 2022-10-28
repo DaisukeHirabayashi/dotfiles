@@ -51,3 +51,6 @@ export LSCOLORS=cxfxcxdxbxegedabagacad
 
 # ビープ音を消す
 setopt no_beep
+
+# m1用の設定
+eval "$(/opt/homebrew/bin/brew shellenv)"
