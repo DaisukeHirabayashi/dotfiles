@@ -276,6 +276,12 @@
         "options": {
           "full_name": "alacritty"
         }
+      },
+      "iterm2": {
+        "version": "3.4.17",
+        "options": {
+          "full_name": "iterm2"
+        }
       }
     }
   },
