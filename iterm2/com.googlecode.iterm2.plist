@@ -519,6 +519,8 @@
 			<false/>
 			<key>Idle Code</key>
 			<integer>0</integer>
+			<key>Initial Text</key>
+			<string>tmux a -t 0 || tmux</string>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
@@ -1185,6 +1187,8 @@
 			<false/>
 			<key>Idle Code</key>
 			<integer>0</integer>
+			<key>Initial Text</key>
+			<string>tmux a -t 0 || tmux</string>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
