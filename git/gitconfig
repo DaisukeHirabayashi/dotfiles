@@ -18,3 +18,5 @@
         sslVerify = false
 [merge]
         ff = false
+[pull]
+	rebase = false
