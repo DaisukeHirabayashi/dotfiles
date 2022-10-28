@@ -14,7 +14,7 @@ renamed = "${count}»"
 deleted = "${count}✘"
 
 [directory]
-home_symbol = "~/"
+home_symbol = "~"
 truncation_length = 0
 
 # hide module versions
