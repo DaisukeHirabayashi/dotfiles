@@ -1,6 +1,5 @@
 dofile("CursolMovingKeyBind.lua")
 dofile("KeyCode.lua")
-dofile("Clipboard.lua")
 
 local function openApp(app, path)
   local application = hs.application.find(app)
