@@ -51,3 +51,6 @@ setopt no_beep
 
 # m1用の設定
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# mysql-client用の設定
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
