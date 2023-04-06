@@ -9,7 +9,7 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 #ruby version manage
 export PATH="~/.rbenv/shims:/usr/local/bin:$PATH"
-eval "$(rbenv init -)"
+eval "$(rbenv init - zsh)"
 
 # 開発用
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
