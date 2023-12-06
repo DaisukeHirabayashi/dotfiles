@@ -11,3 +11,4 @@ alias deploy='bundle exec cap development deploy'
 # lsの色付け
 alias ll='ls -lGF'
 alias ls='ls -GF'
+alias k='kubectl'
