@@ -1,15 +1,18 @@
-let mapleader = "\<Space>"
-nnoremap <Space> <Nop>
+-- リーダーキーの設定
+vim.g.mapleader = " "
 
-" ウィンドウ移動
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
+-- Spaceキーを無効化
+vim.keymap.set('n', '<Space>', '<Nop>')
 
-" command + s的な
-nnoremap <Leader>w :w<CR>
+-- ウィンドウ移動
+vim.keymap.set('n', '<C-h>', '<C-w>h')
+vim.keymap.set('n', '<C-j>', '<C-w>j')
+vim.keymap.set('n', '<C-k>', '<C-w>k')
+vim.keymap.set('n', '<C-l>', '<C-w>l')
 
-" escキーの変更
-inoremap jk <ESC>
+-- command + s的な
+vim.keymap.set('n', '<Leader>w', ':w<CR>')
+
+-- escキーの変更
+vim.keymap.set('i', 'jk', '<ESC>')
 
