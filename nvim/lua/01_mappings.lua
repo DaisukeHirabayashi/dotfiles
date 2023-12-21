@@ -12,3 +12,4 @@ nnoremap <Leader>w :w<CR>
 
 " escキーの変更
 inoremap jk <ESC>
+
