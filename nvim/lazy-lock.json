@@ -1,4 +1,16 @@
 {
+  "auto-pairs": { "branch": "master", "commit": "39f06b873a8449af8ff6a3eee716d3da14d63a76" },
+  "bufferline.nvim": { "branch": "main", "commit": "e48ce1805697e4bb97bc171c081e849a65859244" },
+  "coc.nvim": { "branch": "master", "commit": "f82e420efdb6291d1c3fcac1e20790a7f10f1a78" },
+  "fzf": { "branch": "master", "commit": "d7b61ede07ab20ba106191968f12aaf600b6ede4" },
+  "iceberg.vim": { "branch": "master", "commit": "e01ac08c2202e7544531f4d806f6893539da6471" },
   "lazy.nvim": { "branch": "main", "commit": "96584866b9c5e998cbae300594d0ccfd0c464627" },
-  "nerdtree": { "branch": "master", "commit": "a9546618241e61e785aa4c21b3de0cb657f3b828" }
+  "lualine.nvim": { "branch": "master", "commit": "2248ef254d0a1488a72041cfb45ca9caada6d994" },
+  "nerdtree": { "branch": "master", "commit": "a9546618241e61e785aa4c21b3de0cb657f3b828" },
+  "nvim-web-devicons": { "branch": "master", "commit": "aff5f50b34754335a312c9b3dc5b245f605ce437" },
+  "vim-commentary": { "branch": "master", "commit": "e87cd90dc09c2a203e13af9704bd0ef79303d755" },
+  "vim-endwise": { "branch": "master", "commit": "e714ac3bcfd5a90038de49c3254eded7c70ae3c3" },
+  "vim-fugitive": { "branch": "master", "commit": "59659093581aad2afacedc81f009ed6a4bfad275" },
+  "vim-sayonara": { "branch": "master", "commit": "75c73f3cf3e96f8c09db5291970243699aadc02c" },
+  "winresizer": { "branch": "master", "commit": "9bd559a03ccec98a458e60c705547119eb5350f3" }
 }
