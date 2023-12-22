@@ -10,6 +10,7 @@ brew "tmux"
 brew "zsh"
 
 cask "font-hackgen"
+cask "font-hack-nerd-font"
 cask "font-hackgen-nerd"
 cask "hammerspoon"
 cask "alacritty"
