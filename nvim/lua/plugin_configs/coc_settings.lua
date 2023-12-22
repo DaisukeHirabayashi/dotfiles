@@ -1,9 +1,9 @@
--- require("telescope").setup({
---   extensions = {
---     coc = {}
---   },
--- })
--- require('telescope').load_extension('coc')
+require("telescope").setup({
+  extensions = {
+    coc = {}
+  },
+})
+require('telescope').load_extension('coc')
 
 vim.opt.writebackup = false
 

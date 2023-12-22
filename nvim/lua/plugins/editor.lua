@@ -45,6 +45,9 @@ return {
   },
   {
     'neoclide/coc.nvim',
+    dependencies = {
+      'fannheyward/telescope-coc.nvim',
+    },
     config = function()
       require('plugin_configs/coc_settings')
     end
