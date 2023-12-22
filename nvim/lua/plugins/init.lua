@@ -18,32 +18,32 @@ return {
       })
     end
   },
-  {
-    -- Nerd Tree
-    'preservim/nerdtree',
-    config = function()
-      -- StdinReadPre イベントが発生したら s:std_in をセット
-      vim.api.nvim_create_autocmd("StdinReadPre", {
-        pattern = "*",
-        callback = function()
-          vim.g.std_in = 1
-        end,
-      })
+  -- {
+  --   -- Nerd Tree
+  --   'preservim/nerdtree',
+  --   config = function()
+  --     -- StdinReadPre イベントが発生したら s:std_in をセット
+  --     vim.api.nvim_create_autocmd("StdinReadPre", {
+  --       pattern = "*",
+  --       callback = function()
+  --         vim.g.std_in = 1
+  --       end,
+  --     })
 
-      -- VimEnter イベントが発生したら NERDTree を開く
-      vim.api.nvim_create_autocmd("VimEnter", {
-        pattern = "*",
-        callback = function()
-          if vim.fn.argc() == 0 and vim.g.std_in == nil then
-            vim.cmd("NERDTree")
-          end
-        end,
-      })
+  --     -- VimEnter イベントが発生したら NERDTree を開く
+  --     vim.api.nvim_create_autocmd("VimEnter", {
+  --       pattern = "*",
+  --       callback = function()
+  --         if vim.fn.argc() == 0 and vim.g.std_in == nil then
+  --           vim.cmd("NERDTree")
+  --         end
+  --       end,
+  --     })
 
-      -- NERDTree の設定
-      vim.g.NERDTreeShowHidden = 1
-    end
-  },
+  --     -- NERDTree の設定
+  --     vim.g.NERDTreeShowHidden = 1
+  --   end
+  -- },
   {
     'junegunn/fzf',
     config = function()
