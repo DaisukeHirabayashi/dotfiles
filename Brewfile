@@ -8,6 +8,7 @@ brew "nodebrew"
 brew "rbenv"
 brew "tmux"
 brew "zsh"
+brew "ripgrep"
 
 cask "font-hackgen"
 cask "font-hack-nerd-font"
