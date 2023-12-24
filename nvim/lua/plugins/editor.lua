@@ -7,9 +7,9 @@ return {
     },
     config = function()
       vim.keymap.set('n', ',f', require('telescope.builtin').find_files)
-      vim.keymap.set('n', ',g', require('telescope.builtin').git_files)
+      vim.keymap.set('n', ',p', require('telescope.builtin').git_files)
       vim.keymap.set('n', ',b', require('telescope.builtin').buffers)
-      vim.keymap.set('n', ',r', require('telescope.builtin').live_grep)
+      vim.keymap.set('n', ',F', require('telescope.builtin').live_grep)
       vim.keymap.set('n', '<leader>d', function() require('telescope.builtin').diagnostics { bufnr = 0 } end)
       vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action)
 
@@ -52,6 +52,7 @@ return {
       require('plugin_configs/coc_settings')
     end
   },
+  'github/copilot.vim',
   {
     'akinsho/bufferline.nvim',
     config = function()
