@@ -17,5 +17,5 @@ vim.keymap.set('n', '<Leader>w', ':w<CR>')
 vim.keymap.set('i', 'jk', '<ESC>')
 
 -- Esc2回押しでハイライト削除
-map('n', '<Esc><Esc>', ':nohlsearch<CR>')
+vim.keymap.set('n', '<Esc><Esc>', ':nohlsearch<CR>')
 
