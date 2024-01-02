@@ -135,6 +135,14 @@ return {
     end
   },
   {
+    'mvllow/modes.nvim',
+    event = 'InsertEnter',
+    config = function()
+      vim.opt.cursorline = true
+      require('modes').setup({})
+    end
+  },
+  {
     'mhinz/vim-sayonara',
     config = function()
       vim.keymap.set('n', '<leader>q', ':Sayonara<CR>', { noremap = true, silent = true })

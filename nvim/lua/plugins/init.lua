@@ -5,20 +5,6 @@ return {
   'tpope/vim-fugitive',
   'simeji/winresizer',
   {
-    'cocopon/iceberg.vim',
-    config = function()
-      -- icebergのための設定
-      vim.opt.background = 'dark'
-
-      -- VimEnterイベントでcolorscheme icebergを設定
-      vim.api.nvim_create_autocmd("VimEnter", {
-        pattern = '*',
-        command = 'colorscheme iceberg',
-        nested = true
-      })
-    end
-  },
-  {
     'junegunn/fzf',
     config = function()
       -- fzf用のキーマッピング
