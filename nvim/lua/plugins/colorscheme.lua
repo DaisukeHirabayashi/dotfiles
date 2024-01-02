@@ -9,6 +9,7 @@ return {
         term_colors = false,
         custom_highlights = {
           Comment = { fg = "#E80F88" },
+          Visual = { bg = "#bbbbbb", fg = "#555555" },
         },
         integrations = {
           fidget = true,
