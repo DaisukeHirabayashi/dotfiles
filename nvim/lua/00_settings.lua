@@ -37,3 +37,6 @@ vim.api.nvim_create_autocmd("QuickFixCmdPost", {
     command = "cwindow"
 })
 
+-- 検索時に大文字小文字を区別しない
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
