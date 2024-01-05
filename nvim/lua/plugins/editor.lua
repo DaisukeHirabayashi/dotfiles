@@ -50,8 +50,8 @@ return {
     dependencies = { 'tpope/vim-rhubarb' },
     config = function()
       vim.api.nvim_command('command! -nargs=1 Browse silent execute \'!open\' shellescape(<q-args>,1)')
-      vim.keymap.set('n', '<leader>gb', ':GBrowse<CR>') -- open github
-      vim.keymap.set('v', '<leader>gb', ':GBrowse<CR>') -- open github
+      vim.keymap.set('n', ',g', ':GBrowse<CR>') -- open github
+      vim.keymap.set('v', ',g', ':GBrowse<CR>') -- open github
     end
   },
   {
