@@ -2,7 +2,6 @@ return {
   'jiangmiao/auto-pairs',
   'tpope/vim-endwise',
   'tpope/vim-commentary',
-  'tpope/vim-fugitive',
   'simeji/winresizer',
   {
     'junegunn/fzf',
@@ -17,14 +16,6 @@ return {
         }))
       end, {})
       vim.api.nvim_set_keymap('n', '<leader>p', ':FZF<CR>', { noremap = true, silent = true })
-    end
-  },
-  {
-    'tpope/vim-fugitive',
-    config = function()
-      vim.api.nvim_set_keymap('n', '<leader>gs', ':Git<CR><C-w>T', { noremap = true, silent = true })
-      vim.api.nvim_set_keymap('n', '<leader>gc', ':Git commit -v<CR>', { noremap = true, silent = true })
-      vim.api.nvim_set_keymap('n', '<leader>gf', ':Ggrep<space>', { noremap = true, silent = true })
     end
   },
   {
