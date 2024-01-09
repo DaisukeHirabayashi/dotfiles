@@ -136,8 +136,17 @@ return {
     'akinsho/bufferline.nvim',
     config = function()
       vim.opt.termguicolors = true
-      require("bufferline").setup{}
 
+      require('bufferline').setup{
+        options = {
+          diagnostics = "coc",
+          diagnostics_update_in_insert = false,
+          diagnostics_indicator = function(count, level, diagnostics_dict, context)
+            local icon = level:match("error") and " " or " "
+            return " " .. icon .. count
+          end
+        },
+      }
       -- キーマッピング
       vim.api.nvim_set_keymap('n', '<C-N>', ':BufferLineCycleNext<CR>', { noremap = true, silent = true })
       vim.api.nvim_set_keymap('n', '<C-P>', ':BufferLineCyclePrev<CR>', { noremap = true, silent = true })
