@@ -158,6 +158,16 @@ return {
             bold = true,
             italic = true,
           },
+          warning = {
+            fg = '#969696',
+            sp = '#ffffff',
+            bg = '#181818',
+          },
+          error = {
+            fg = '#969696',
+            sp = '#ffffff',
+            bg = '#181818',
+          },
         }
       }
       -- キーマッピング
