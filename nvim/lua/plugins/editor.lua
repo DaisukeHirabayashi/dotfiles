@@ -147,6 +147,14 @@ return {
           end,
           separator_style = "thin",
         },
+        highlights = {
+            buffer_selected = {
+              fg = "#ff0000",  -- 赤色
+              bg = '#FFFFFF',
+              bold = true,
+              italic = true,
+            },
+          }
       }
       -- キーマッピング
       vim.api.nvim_set_keymap('n', '<C-N>', ':BufferLineCycleNext<CR>', { noremap = true, silent = true })
