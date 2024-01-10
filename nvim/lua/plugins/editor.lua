@@ -148,13 +148,17 @@ return {
           separator_style = "thin",
         },
         highlights = {
-            buffer_selected = {
-              fg = "#ff0000",  -- 赤色
-              bg = '#FFFFFF',
-              bold = true,
-              italic = true,
-            },
-          }
+          background = {
+            fg = '#969696',
+            bg = '#181818',
+          },
+          buffer_selected = {
+            fg = "#ffffff",
+            bg = '#1f1f1f',
+            bold = true,
+            italic = true,
+          },
+        }
       }
       -- キーマッピング
       vim.api.nvim_set_keymap('n', '<C-N>', ':BufferLineCycleNext<CR>', { noremap = true, silent = true })
