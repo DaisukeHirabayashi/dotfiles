@@ -152,6 +152,10 @@ return {
             fg = '#969696',
             bg = '#181818',
           },
+          buffer_visible = {
+            fg = '#969696',
+            bg = '#181818',
+          },
           buffer_selected = {
             fg = "#ffffff",
             bg = '#1f1f1f',
