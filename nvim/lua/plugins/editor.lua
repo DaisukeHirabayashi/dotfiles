@@ -167,6 +167,11 @@ return {
             sp = '#ffffff',
             bg = '#181818',
           },
+          warning_visible = {
+            fg = '#969696',
+            sp = '#ffffff',
+            bg = '#181818',
+          },
           error = {
             fg = '#969696',
             sp = '#ffffff',
