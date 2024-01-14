@@ -39,6 +39,10 @@ zstyle ':completion:*' group-name ''
 ### 補完侯補をメニューから選択する。
 ### select=2: 補完候補を一覧から選択する。補完候補が2つ以上なければすぐに補完する。
 zstyle ':completion:*:default' menu select=2
+
+# 方向キーの上と下で履歴検索
+bindkey '^[[A' history-beginning-search-backward
+bindkey '^[[B' history-beginning-search-forward
 #################################  OTHERS  #################################
 # automatically change directory when dir name is typed
 setopt auto_cd
