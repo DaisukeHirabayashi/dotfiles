@@ -17,3 +17,6 @@ minimal: init
 go: 
 	ln -svf ${PWD}/03_go_setting.zsh ${ENABLED}
 
+.PHONY: ruby
+ruby:
+	ln -svf ${PWD}/04_ruby_setting.zsh ${ENABLED}
