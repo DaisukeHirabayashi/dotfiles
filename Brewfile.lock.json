@@ -5,7 +5,7 @@
         "revision": "3ccb29e5338eff0418544086d9ca56315832ff7b"
       },
       "homebrew/cask-fonts": {
-        "revision": "ce6d85bb40f1113ec132a57007810cb3da052dcb"
+        "revision": "9544a97f8aaa74442abb13f00ce5d9a354610153"
       },
       "homebrew/core": {
         "revision": "58c547f2a50e995baf7279f47c1190cab8bcb1f2"
@@ -383,7 +383,7 @@
         "macOS": "12.6.1"
       },
       "ventura": {
-        "HOMEBREW_VERSION": "4.2.0",
+        "HOMEBREW_VERSION": "4.2.3",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "14.3.1.0.1.1683849156",
