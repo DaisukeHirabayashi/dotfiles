@@ -186,3 +186,16 @@ local cspell_dict = {
 vim.api.nvim_call_function("coc#config", { "cSpell.dictionaryDefinitions", cspell_dict })
 vim.api.nvim_call_function("coc#config", { "cSpell.dictionaries", { "customWords" } })
 
+-- updatetimeを設定 (ミリ秒単位)
+vim.o.updatetime = 500
+
+-- CursorHold イベントが発生したときに実行する関数
+local function on_cursor_hold()
+  vim.fn.CocActionAsync('doHover')
+end
+
+-- 自動コマンドを設定
+vim.api.nvim_create_autocmd('CursorHold', {
+  pattern = '*',
+  callback = on_cursor_hold
+})
