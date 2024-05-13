@@ -19,7 +19,7 @@
 [merge]
         ff = false
 [pull]
-	rebase = false
+	rebase = true
 
 [push]
 	autoSetupRemote = true
