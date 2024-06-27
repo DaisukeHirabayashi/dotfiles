@@ -9,8 +9,8 @@
 [alias]
         ad = add . -p
         st = status
-        co = commit
-        ps = push
+        co = commit --no-verify
+        ps = push --no-verify
         pl = pull
         ck = checkout
         unstg = restore --staged

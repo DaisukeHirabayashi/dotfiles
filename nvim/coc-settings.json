@@ -1,6 +1,6 @@
 {
   "suggest.noselect": true,
   "yaml.enable": true,
-  "yaml.schemaStore.enable": true,
+  "yaml.schemaStore.enable": true
 }
 
