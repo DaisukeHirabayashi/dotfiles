@@ -20,3 +20,7 @@ go:
 .PHONY: ruby
 ruby:
 	ln -svf ${PWD}/04_ruby_setting.zsh ${ENABLED}
+
+.PHONY: postgres
+postgres:
+	ln -svf ${PWD}/30_postgre.zsh ${ENABLED}
