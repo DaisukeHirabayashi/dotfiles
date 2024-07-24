@@ -341,6 +341,12 @@
         "options": {
           "full_name": "font-hack-nerd-font"
         }
+      },
+      "arc": {
+        "version": "1.52.0,51895",
+        "options": {
+          "full_name": "arc"
+        }
       }
     }
   },

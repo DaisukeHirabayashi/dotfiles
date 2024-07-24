@@ -17,3 +17,5 @@ cask "alacritty"
 cask "iterm2"
 cask "bitwarden"
 cask "raycast"
+cask "arc"
+
