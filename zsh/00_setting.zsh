@@ -1,9 +1,6 @@
 # config nvim
 export XDG_CONFIG_HOME=$HOME/.config
 
-# javaのバージョン管理
-export JAVA_HOME=`/usr/libexec/java_home -v 11`
-
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
@@ -58,3 +55,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # mysql-client用の設定
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+
+# jenvの設定
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"

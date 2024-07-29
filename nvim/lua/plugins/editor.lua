@@ -133,7 +133,6 @@ return {
       require('plugin_configs/coc_settings')
     end
   },
-  'github/copilot.vim',
   {
     'akinsho/bufferline.nvim',
     config = function()
