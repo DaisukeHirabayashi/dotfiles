@@ -1,9 +1,6 @@
 # config nvim
 export XDG_CONFIG_HOME=$HOME/.config
 
-# nodebrew
-export PATH=$HOME/.nodebrew/current/bin:$PATH
-
 #ruby version manage
 export PATH="~/.rbenv/shims:/usr/local/bin:$PATH"
 eval "$(rbenv init - zsh)"
@@ -59,3 +56,6 @@ export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 # jenvの設定
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+# asdfの設定
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
