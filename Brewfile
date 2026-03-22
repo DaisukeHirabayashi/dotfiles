@@ -1,5 +1,3 @@
-tap "homebrew/bundle"
-
 brew "fzf"
 brew "neovim"
 brew "rbenv"
@@ -12,9 +10,6 @@ cask "font-hackgen"
 cask "font-hack-nerd-font"
 cask "font-hackgen-nerd"
 cask "hammerspoon"
-cask "alacritty"
 cask "iterm2"
-cask "bitwarden"
 cask "raycast"
-cask "arc"
 
