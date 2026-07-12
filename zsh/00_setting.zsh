@@ -57,5 +57,3 @@ export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
-# asdfの設定
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
