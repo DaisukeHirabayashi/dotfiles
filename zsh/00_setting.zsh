@@ -53,9 +53,5 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # mysql-client用の設定
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 
-# jenvの設定
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
-
 # miseの設定
 eval "$(mise activate zsh)"
