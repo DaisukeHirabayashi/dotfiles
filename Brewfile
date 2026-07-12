@@ -4,6 +4,7 @@ brew "rbenv"
 brew "tmux"
 brew "zsh"
 brew "ripgrep"
+brew "mise"
 
 cask "font-hackgen"
 cask "font-hack-nerd-font"
